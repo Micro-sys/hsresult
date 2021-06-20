@@ -1,0 +1,16 @@
+body {margin: 50px;
+	text-align: center;
+	background-image: url("bg.jpg");
+    background-color: #cccccc;
+    background-size: 1000px 640px;
+}
+
+.Firstcond	{
+	margin: 50px;
+}
+.label{
+    color; yellow;
+}
+.i{
+    color:red;
+}

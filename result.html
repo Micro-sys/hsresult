@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html> 
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Result Twelve </title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head><h1 style="color:violet;">WBBSE RESULT 2021 CALCULATOR</h1>
+
+<body>
+<form>
+<label for="fname"><b style="color:yellow;">Obtained Number in 10th</b></label>
+	<input type="text" id="firstNumber" /><br>
+<label for="fname"><b style="color:yellow;">Obtained Number in 11th <small>(one subject)</small>:</b></label>
+	<input type="text" id="secondNumber" /><br>
+<input type="button" class="Firstcond" onClick="multiplyBy()" Value="Full Marks-70" />
+<input type="button" class="Secouncond" onClick="divideBy()" Value="Full Marks-80" />
+</form>
+<p style="background-color:yellow;">The Result is : <br>
+<span id = "result"></span>
+</p> <i style="color:red">we are not  responsible for any inadvertent error that may have crept in the results being published on internet. The results published on this page are for immediate information to the examinees. These cannot be treated as original mark sheets. Respective Board/Council/Institution/University has provided the data and intimated for publication.</i>
+</body>
+</html>
+<script>
+    function multiplyBy()
+{
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+        document.getElementById("result").innerHTML = (num1 * 28)/400+(num2 *42)/70;
+}
+
+function divideBy() 
+{ 
+        num1 = document.getElementById("firstNumber").value;
+        num2 = document.getElementById("secondNumber").value;
+document.getElementById("result").innerHTML = (num1 * 32)/400+(num2 *48)/80;
+}
+</script>
